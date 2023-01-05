@@ -22,7 +22,7 @@ const WorkoutForm = () => {
 
     const workout = { title, description, duration };
 
-    const response = await fetch("/api/workouts", {
+    const response = await fetch("https://kind-puce-meerkat.cyclic.app/api/workouts", {
       method: "POST",
       body: JSON.stringify(workout),
       headers: {

@@ -20,8 +20,8 @@ const Navbar = () => {
         </Link>
         <nav>
           {user && (
-            <div>
-              <span className="text-white">{user.Username}</span>
+            <div className="flex">
+              <span className="text-white text-uppercase">{user.Username}</span>
               <button
                 className="btn primary-btn btn-lg text-white"
                 onClick={handleClick}
@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
           )}
           {!user && (
-            <div>
+            <div className="flex">
               <Link to="/login" className="btn btn-lg primary-btn text-white">
                 Login
               </Link>

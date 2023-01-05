@@ -62,7 +62,10 @@ const Signup = () => {
                     />
                   </div>
                   <div className="col-md-12">
-                    <button disabled={isLoading} className="w-100">
+                    <button
+                      disabled={isLoading}
+                      className="w-100 btn primary-btn text-white btn-lg"
+                    >
                       Signup
                     </button>
                   </div>

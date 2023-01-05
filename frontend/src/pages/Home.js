@@ -31,11 +31,13 @@ const Home = () => {
     <>
       <div>
         <WorkoutForm />
-        <div className="row row-cols-1 row-cols-md-3">
-          {workouts &&
-            workouts.map((workout) => (
-              <WorkoutDetails key={workout._id} workout={workout} />
-            ))}
+        <div className="container">
+          <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2">
+            {workouts &&
+              workouts.map((workout) => (
+                <WorkoutDetails key={workout._id} workout={workout} />
+              ))}
+          </div>
         </div>
       </div>
     </>

@@ -28,7 +28,7 @@ const WorkoutDetails = ({ workout }) => {
 
   return (
     <>
-      <div className="col my-1">
+      <div className="col my-2">
         <div className="card p-3">
           <img
             src={ActivityImg}

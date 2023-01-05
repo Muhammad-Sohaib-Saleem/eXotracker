@@ -48,7 +48,7 @@ const WorkoutForm = () => {
 
   return (
     <>
-      <div className="container mb-3">
+      <div className="container my-3">
         <div className="d-flex justify-content-between">
           <div className="fs-3 fw-semibold primary-text">My Activities</div>
           <button
